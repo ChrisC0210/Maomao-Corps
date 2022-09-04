@@ -1,0 +1,14 @@
+<svg id="Component_11_16" data-name="Component 11 – 16" xmlns="http://www.w3.org/2000/svg" width="1366" height="270" viewBox="0 0 1366 270">
+  <g id="Group_8" data-name="Group 8">
+    <path id="Intersection_1" data-name="Intersection 1" d="M0,270C.931,120.817,306.364,0,683,0s682.068,120.817,683,270Z" fill="#f8e17c"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M0,247C.909,110.525,299.187,0,667,0s666.09,110.525,667,247Z" transform="translate(14 23)" fill="#f9e489"/>
+  </g>
+  <circle id="Ellipse_30" data-name="Ellipse 30" cx="50" cy="50" r="50" transform="translate(142 153)" fill="#f8e17c"/>
+  <circle id="Ellipse_31" data-name="Ellipse 31" cx="27.5" cy="27.5" r="27.5" transform="translate(365 164)" fill="#f8e17c"/>
+  <circle id="Ellipse_32" data-name="Ellipse 32" cx="44" cy="44" r="44" transform="translate(508 65)" fill="#f8e17c"/>
+  <circle id="Ellipse_33" data-name="Ellipse 33" cx="44" cy="44" r="44" transform="translate(508 65)" fill="#f8e17c"/>
+  <path id="Intersection_6" data-name="Intersection 6" d="M3480.483-7718a43.8,43.8,0,0,1-6.483-23,44,44,0,0,1,44-44,44,44,0,0,1,44,44,43.8,43.8,0,0,1-6.483,23Z" transform="translate(-2648 7988)" fill="#f8e17c"/>
+  <circle id="Ellipse_38" data-name="Ellipse 38" cx="50" cy="50" r="50" transform="translate(1126 152)" fill="#f8e17c"/>
+  <circle id="Ellipse_39" data-name="Ellipse 39" cx="27.5" cy="27.5" r="27.5" transform="translate(998 98)" fill="#f8e17c"/>
+  <circle id="Ellipse_40" data-name="Ellipse 40" cx="44" cy="44" r="44" transform="translate(803 65)" fill="#f8e17c"/>
+</svg>
