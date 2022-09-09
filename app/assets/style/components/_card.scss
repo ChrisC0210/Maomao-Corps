@@ -1,0 +1,19 @@
+.partner-card{
+  background-image: url('../images/bg-house.svg');
+  min-height: 190px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  img{
+    max-width: 160px;
+  }
+}
+.banner-bg{
+  border-radius: 1.5rem;
+  .img-fluid{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+  }
+}

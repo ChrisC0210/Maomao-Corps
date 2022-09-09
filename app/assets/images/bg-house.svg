@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="385" height="277.869" viewBox="0 0 385 277.869">
+  <defs>
+    <filter id="Path_3538" x="0" y="1" width="385" height="276.869" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(-140 -664)">
+    <g transform="matrix(1, 0, 0, 1, 140, 664)" filter="url(#Path_3538)">
+      <path id="Path_3538-2" data-name="Path 3538" d="M24,0H331c13.255,0,24,5.792,24,12.936v221c0,7.145-10.745,12.936-24,12.936H24c-13.255,0-24-5.792-24-12.936v-221C0,5.792,10.745,0,24,0Z" transform="translate(15 13)" fill="#d8c59d"/>
+    </g>
+    <path id="Rectangle_120" data-name="Rectangle 120" d="M24,0H350a24,24,0,0,1,24,24V69a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V24A24,24,0,0,1,24,0Z" transform="translate(146 664)" fill="#dc9722"/>
+    <rect id="Rectangle_145" data-name="Rectangle 145" width="12" height="69" transform="translate(167 664)" fill="#efab39"/>
+    <rect id="Rectangle_146" data-name="Rectangle 146" width="12" height="69" transform="translate(199 664)" fill="#efab39"/>
+    <rect id="Rectangle_147" data-name="Rectangle 147" width="12" height="69" transform="translate(231 664)" fill="#efab39"/>
+    <rect id="Rectangle_148" data-name="Rectangle 148" width="12" height="69" transform="translate(263 664)" fill="#efab39"/>
+    <rect id="Rectangle_149" data-name="Rectangle 149" width="12" height="69" transform="translate(295 664)" fill="#efab39"/>
+    <rect id="Rectangle_150" data-name="Rectangle 150" width="12" height="69" transform="translate(327 664)" fill="#efab39"/>
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="12" height="69" transform="translate(359 664)" fill="#efab39"/>
+    <rect id="Rectangle_152" data-name="Rectangle 152" width="12" height="69" transform="translate(391 664)" fill="#efab39"/>
+    <rect id="Rectangle_153" data-name="Rectangle 153" width="12" height="69" transform="translate(423 664)" fill="#efab39"/>
+    <rect id="Rectangle_154" data-name="Rectangle 154" width="12" height="69" transform="translate(455 664)" fill="#efab39"/>
+    <rect id="Rectangle_155" data-name="Rectangle 155" width="12" height="69" transform="translate(487 664)" fill="#efab39"/>
+  </g>
+</svg>

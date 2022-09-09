@@ -45,6 +45,7 @@ $orange:  #DC9722 !default; //#fd7e14
 $orange-800:  #EFAB39 !default; //add
 $yellow:  #F0D975 !default; //#ffc107
 $yellow-400:  #F8E17C !default;
+$yellow-200:  #FDF2DD !default;//add
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
@@ -61,6 +62,7 @@ $colors: (
   "orange-800": $orange-800,
   "yellow":     $yellow,
   "yellow-400": $yellow-400,
+  "yellow-200": $yellow-200,
   "green":      $green,
   "teal":       $teal,
   "cyan":       $cyan,
@@ -100,6 +102,7 @@ $theme-colors: (
   "gray-1a":    $gray-1a,
   "gray-c1":    $gray-c1,
   "yellow-400": $yellow-400,
+  "yellow-200": $yellow-200,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -268,9 +271,9 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,//24
   5: $spacer * 2,//32
-  6: $spacer * 3,//48
+  6: $spacer * 2.5,//40
   7: $spacer * 3.125,//50
-  8: $spacer * 5,//80
+  8: $spacer * 3.75,//60
   9: $spacer * 5.625,//90
   
 ) !default;

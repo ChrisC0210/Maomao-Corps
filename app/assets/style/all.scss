@@ -7,9 +7,14 @@
 
 //base
 @import "./base/reset";
+//vendors
+@import './vendors/slick';
+@import './vendors/slick-theme';
 //components
 @import './components/icon';
 @import './components/header';
 @import './components/footer';
-//layout
+@import './components/card';
+//layout 
 @import './layout/index';
+
