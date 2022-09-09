@@ -6,7 +6,14 @@ $(function () {
     $(this).text(function (i, text) {
       return text === "登入/註冊" ? "登出" : "登入/註冊";
     });
-  });
+  }); //
+
+  $('.banner-slide').slick({
+    dots: true,
+    arrows: false,
+    lazyLoad: 'ondemand'
+  }); //
+
   $('.autoplay').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
