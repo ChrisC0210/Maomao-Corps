@@ -13981,7 +13981,7 @@ a:hover, a:focus, a:active {
 }
 
 .partner-card {
-  background-image: url("/assets/images/bg-house.svg");
+  background-image: url("../images/bg-house.svg");
   min-height: 190px;
   background-repeat: no-repeat;
   background-size: contain;
