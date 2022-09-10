@@ -53,34 +53,15 @@
     </div>
   </div>
 </nav>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!--  -->
-<section class="container mb-6">
+    <!--  -->
+<section class="container mt-4 mb-6">
   <div class="p-4 rounded-5 bg-secondary banner-bg">
     <div class="banner-slide mb-0">
-      <div>
+      <div class="position-relative">
+        <div class="position-absolute top-0 start-0 bg-light mt-3 mx-3 p-4 border border-rounded-4 opacity-50">
+          <p  class="lh-base fs-5 fw-bolder">#寵物醫療</p>
+          <h2 class="lh-base fs-3 fw-bolder">毛孩新療法！「幹細胞治療」不再僅限於人類</h2>
+        </div>
         <img class="img-fluid" src="./assets/images/banner-1.png" alt="banner-1.png">
       </div>
       <div>
@@ -144,9 +125,10 @@
 <!-- ads -->
 <section class="container mb-8 mt-9">
   <div class="row">
-    <div class="col">
+    <div class="col position-relative">
       <a href="#">
-        <img class="w-100" src="./assets/images/img-ads-2.png" alt="ads-2.png">        
+        <!-- <div class="position-absolute top-0 end-0 text-white bg-light p-4 pt-2">Ad</div> -->
+        <img class="w-100" src="./assets/images/img-ads.png" alt="ads">        
       </a>
     </div>
 
@@ -164,7 +146,7 @@
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingOne">
-        <button class="accordion-button fw-bolder lh-base fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="accordion-button fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           會員制度
         </button>
       </h5>
@@ -176,19 +158,22 @@
     </div>
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed fw-bolder lh-base fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           合作接洽
         </button>
       </h5>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>我是店家/獸醫院/中途之家，想要合作，如何接洽呢？</p>
+          <br>
+          <p>目前店家接洽統一透過網路喔！</p>
+          <p>店家如果有配合進貨意願，可以協助將店家照片（內裝、外觀）及名片 email給我們，會由業務夥伴與您確認後續事宜。</p>
         </div>
       </div>
     </div>
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed fw-bolder lh-base fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           付款方式
         </button>
       </h5>
@@ -198,6 +183,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="mt-2">
+    <a href="./qa.html" class="fw-bolder lh-base fs-6 text-primary">more >> </a>
   </div>
 </section>
 <!-- 合作商家 -->
