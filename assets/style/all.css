@@ -14146,6 +14146,19 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 
+.banner-slide-text {
+  background-color: #ffffffe8;
+  border-radius: 1.375rem;
+}
+
+.login-bg {
+  background-image: url("../images/login-bg.svg");
+  min-height: 320px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
 .index__h1 {
   color: #3d9882;
   font-weight: 400;
