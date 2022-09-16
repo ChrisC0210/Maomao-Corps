@@ -1,13 +1,18 @@
 "use strict";
 
 $(function () {
-  console.log('Hello Bootstrap5');
-  $(".login-click").click(function () {
-    $(this).text(function (i, text) {
-      return text === "登入/註冊" ? "登出" : "登入/註冊";
-    });
-  }); //
-
+  // console.log('Hello Bootstrap5');
+  // $(".login-click").click(function () {
+  //   $(this).text(function (i, text) {
+  //     return text === "登入/註冊" ? "登出" : "登入/註冊";
+  //   })
+  // });
+  //
+  //   AOS.init({
+  //     duration: 600,
+  //     once: true
+  // });
+  //
   $('.banner-slide').slick({
     dots: true,
     arrows: false,
@@ -37,7 +42,14 @@ $(function () {
         slidesToShow: 1
       }
     }]
-  });
+  }); //
+
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
+  }); //
 });
 "use strict";
 

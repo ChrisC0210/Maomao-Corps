@@ -32,16 +32,15 @@
         <li class="nav-item">
           <a class="nav-link fw-bolder fs-5" href="./qa.html">常見問題</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link fw-bolder fs-5" href="./article.html">文章列表</a>
-        </li>
+        </li> -->
       </ul>
       <div class="d-flex">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
-            <a class="nav-link fw-bolder fs-5" href="./login.html">
-              登入/註冊
-            </a>
+            <a class="nav-link fw-bolder fs-5" href="./article.html">文章列表</a>
+            <!-- <a class="nav-link fw-bolder fs-5" href="./login.html">登入/註冊</a> -->
             <!-- <a class="login-click nav-link fw-bolder fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               登入/註冊
             </a>
@@ -71,17 +70,17 @@
 <section class="container mb-6">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active border lh-base fs-5 text-dark rounded-pill px-5 me-3" id="pills-price-tab"
+      <button class="nav-link active border lh-base fs-5 text-dark rounded-pill px-5 mb-2 me-3" id="pills-price-tab"
         data-bs-toggle="pill" data-bs-target="#pills-price" type="button" role="tab" aria-controls="pills-price"
         aria-selected="true">費用參考</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link border lh-base fs-5 text-dark rounded-pill px-5 me-3" id="pills-inquiry-tab"
+      <button class="nav-link border lh-base fs-5 text-dark rounded-pill px-5 mb-2 me-3" id="pills-inquiry-tab"
         data-bs-toggle="pill" data-bs-target="#pills-inquiry" type="button" role="tab" aria-controls="pills-inquiry"
         aria-selected="false">院所查詢</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link border lh-base fs-5 text-dark rounded-pill px-5" id="pills-insurance-tab"
+      <button class="nav-link border lh-base fs-5 text-dark rounded-pill px-5 mb-2" id="pills-insurance-tab"
         data-bs-toggle="pill" data-bs-target="#pills-insurance" type="button" role="tab" aria-controls="pills-insurance"
         aria-selected="false">寵物保險</button>
     </li>
@@ -90,7 +89,7 @@
     <div class="tab-pane fade show active" id="pills-price" role="tabpanel" aria-labelledby="pills-price-tab"
       tabindex="0">
       <form class="row" role="search">
-        <div class="col-sm-2">
+        <div class="col-sm-2 mb-2">
           <label class="visually-hidden" for="price-city">Preference</label>
           <select class="form-select" id="price-city">
             <option selected>選擇縣市</option>
@@ -99,7 +98,7 @@
             <option value="3">Three</option>
           </select>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-2 mb-2">
           <label class="visually-hidden" for="price-option">Preference</label>
           <select class="form-select" id="price-option">
             <option selected>選擇項目</option>
@@ -131,7 +130,7 @@
 
     <div class="tab-pane fade" id="pills-inquiry" role="tabpanel" aria-labelledby="pills-inquiry-tab" tabindex="0">
       <form class="row" role="search">
-        <div class="col-sm-2">
+        <div class="col-sm-2 mb-2">
           <label class="visually-hidden" for="price-city">Preference</label>
           <select class="form-select" id="price-city">
             <option selected>選擇縣市</option>
@@ -140,7 +139,7 @@
             <option value="3">Three</option>
           </select>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-2 mb-2">
           <label class="visually-hidden" for="price-option">Preference</label>
           <select class="form-select" id="price-option">
             <option selected>地區</option>
@@ -197,7 +196,7 @@
   </div>
 </section>
     <footer class="footer d-flex justify-content-center fs-5">
-  <div class="align-self-end">
+  <div class="align-self-end scrollar" data-scrollar-speed="2">
     <div class="d-flex justify-content-center">
       <a href="#">
       <img class="me-3" src="./assets/images/icon-fb.svg" alt="icon-fb.svg">
@@ -212,7 +211,11 @@
   </div>
 </footer>
     <script src="./assets/js/vendors.js"></script>
+    <!-- <script src="./assets/js/aos.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/scrollar/scrollar.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <!-- <script src="./node_modules/swiper/swiper-bundle.min.js"></script> -->
+
     <script src="./assets/js/all.js"></script>
   </body>
 

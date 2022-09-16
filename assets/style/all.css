@@ -14135,6 +14135,13 @@ a:hover, a:focus, a:active {
   max-width: 160px;
 }
 
+@media (max-width: 768px) {
+  .partner-card img {
+    max-width: 120px;
+    margin-top: 50px;
+  }
+}
+
 .banner-bg {
   border-radius: 1.5rem;
 }
@@ -14144,6 +14151,15 @@ a:hover, a:focus, a:active {
   background-size: contain;
   background-position: bottom;
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .banner-bg .img-fluid {
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0.5rem;
+  }
 }
 
 .banner-slide-text {
@@ -14157,6 +14173,12 @@ a:hover, a:focus, a:active {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+}
+
+@media (max-width: 500px) {
+  .card-border .rounded-pill {
+    border-radius: 10px !important;
+  }
 }
 
 .index__h1 {
