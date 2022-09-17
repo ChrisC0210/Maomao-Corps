@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maomao Corps</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -81,19 +82,19 @@
       </div>
       <div class="position-relative">
         <div class="position-absolute top-0 start-0 mt-3 mx-3 p-4 banner-slide-text">
-          <a href="#">
-            <p class="m-0 lh-base fs-5 fw-bolder text-gray-700">#寵物醫療</p>
-            <h2 class="lh-base fs-3 fw-bolder text-primary">毛孩新療法！「幹細胞治療」不再僅限於人類</h2>
+          <a href="./article-info.html">
+            <p class="m-0 lh-base fs-5 fw-bolder text-gray-700">#寵物健康</p>
+            <h2 class="lh-base fs-3 fw-bolder text-primary">貓貓好愛跳，關節保養要注意！9成貓咪有關節炎?</h2>
           </a>
         </div>
-        <img class="img-fluid" src="./assets/images/banner-1.png" alt="banner-1.png">
+        <img class="img-fluid" src="./assets/images/info-1.png" alt="banner-1.png">
       </div>
     </div>
   </div>
 </section>
 <!-- 關於我們 -->
 <div class="container mb-4">
-  <h2 class="lh-base fs-2 fw-bolder text-center text-primary">
+  <h2 class="lh-base fs-2 fw-bolder text-center text-primary" data-aos="fade-up">
     <span><img class="me-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
     關於我們
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
@@ -111,41 +112,70 @@
 </section>
 <!-- 駐站獸醫 -->
 <div class="container mb-4">
-  <h2 class="lh-base fs-2 fw-bolder text-center text-primary">
+  <h2 class="lh-base fs-2 fw-bolder text-center text-primary" data-aos="fade-up">
     <span><img class="me-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
     駐站獸醫
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
   </h2>
 </div>
 <section class="container card-border">
-  <div class="p-5 rounded-pill bg-yellow-200 shadow m-2 m-lg-0 row position-relative">
-    <div class="col-6">
-      <div class="d-none d-lg-block position-absolute top-50 start-0 translate-middle-y">
-        <img src="./assets/images/doctor-1.png" alt="doctor-1.png">
+  <div class="doctor-slide">
+    <div class="pt-5 pb-5">
+      <div class="p-5 rounded-pill bg-yellow-200 shadow-sm m-2 m-lg-0 row position-relative">
+        <div class="col-6">
+          <div class="d-none d-lg-block position-absolute top-50 start-0 translate-middle-y">
+            <img src="./assets/images/doctor-1.png" alt="doctor-1.png">
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 text-sm-center text-lg-start">
+          <h3 class="lh-base fs-2 fw-bolder text-primary">
+            <span><img class="me-2 mb-1" src="./assets/images/icon-doctor.svg" alt="doctor-icon"></span>
+            王大明</h3>
+          <ul class="list-unstyled">
+            <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台北總院主治獸醫師</li>
+            <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台中總院主治獸醫師</li>
+            <li class="lh-base fs-6 text-gray-700">＊彰化築愛動物醫院心臟門診獸醫師</li>
+          </ul>
+          <h4 class="lh-base fs-5 fw-bolder text-primary">專長</h4>
+          <ul class="list-unstyled">
+            <li class="lh-base fs-6 text-gray-700">＊小動物內外科</li>
+            <li class="lh-base fs-6 text-gray-700">＊小動物心臟科</li>
+          </ul>
+        </div>
+
       </div>
     </div>
-    <div class="col-sm-12 col-lg-6 text-sm-center text-lg-start">
-      <h3 class="lh-base fs-2 fw-bolder text-primary">
-        <span><img class="me-2 mb-1" src="./assets/images/icon-doctor.svg" alt="doctor-icon"></span>
-        王大明</h3>
-      <ul class="list-unstyled">
-        <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台北總院主治獸醫師</li>
-        <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台中總院主治獸醫師</li>
-        <li class="lh-base fs-6 text-gray-700">＊彰化築愛動物醫院心臟門診獸醫師</li>
-      </ul>
-      <h4 class="lh-base fs-5 fw-bolder text-primary">專長</h4>
-      <ul class="list-unstyled">
-        <li class="lh-base fs-6 text-gray-700">＊小動物內外科</li>
-        <li class="lh-base fs-6 text-gray-700">＊小動物心臟科</li>
-      </ul>
-    </div>
+    <div class="pt-5 pb-5">
+      <div class="p-5 rounded-pill bg-yellow-200 shadow m-2 m-lg-0 row position-relative">
+        <div class="col-6">
+          <div class="d-none d-lg-block position-absolute top-50 start-0 translate-middle-y">
+            <img src="./assets/images/doctor-2.png" alt="doctor-1.png">
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6 text-sm-center text-lg-start">
+          <h3 class="lh-base fs-2 fw-bolder text-primary">
+            <span><img class="me-2 mb-1" src="./assets/images/icon-doctor.svg" alt="doctor-icon"></span>
+            黃小美</h3>
+          <ul class="list-unstyled">
+            <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台北總院主治獸醫師</li>
+            <li class="lh-base fs-6 text-gray-700">＊慈愛動物醫院台中總院主治獸醫師</li>
+            <li class="lh-base fs-6 text-gray-700">＊彰化築愛動物醫院心臟門診獸醫師</li>
+          </ul>
+          <h4 class="lh-base fs-5 fw-bolder text-primary">專長</h4>
+          <ul class="list-unstyled">
+            <li class="lh-base fs-6 text-gray-700">＊小動物內外科</li>
+            <li class="lh-base fs-6 text-gray-700">＊小動物心臟科</li>
+          </ul>
+        </div>
 
+      </div>
+    </div>
   </div>
 </section>
 <!-- ads -->
 <section class="container mb-8 mt-9">
   <div class="row">
-    <div class="col position-relative">
+    <div class="col position-relative" data-aos="zoom-in">
       <a href="#">
         <!-- <div class="position-absolute top-0 end-0 text-white bg-light p-4 pt-2">Ad</div> -->
         <img class="w-100" src="./assets/images/img-ads.png" alt="ads">
@@ -156,7 +186,7 @@
 </section>
 <!-- 常見問題 -->
 <div class="container mb-4">
-  <h2 class="lh-base fs-2 fw-bolder text-center text-primary">
+  <h2 class="lh-base fs-2 fw-bolder text-center text-primary" data-aos="fade-up">
     <span><img class="me-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
     常見問題
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
@@ -216,14 +246,14 @@
 </section>
 <!-- 合作商家 -->
 <div class="container mb-5">
-  <h2 class="lh-base fs-2 fw-bolder text-center text-primary">
+  <h2 class="lh-base fs-2 fw-bolder text-center text-primary" data-aos="fade-up">
     <span><img class="me-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
     合作商家
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
   </h2>
 </div>
 <section class="container mb-6">
-  <div class="autoplay m-0">
+  <div class="partner-slide m-0">
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
         <a href="https://www.petpetmomart.com/products" target="_blank" class="d-flex justify-content-center">
@@ -278,9 +308,11 @@
   </div>
 </footer>
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script src="./assets/js/aos.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/scrollar/scrollar.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/scrollar/scrollar.min.js"></script> -->
+    <!-- <script src="./assets/js/slick.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- <script src="./node_modules/swiper/swiper-bundle.min.js"></script> -->
 
     <script src="./assets/js/all.js"></script>

@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maomao Corps</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -80,8 +81,9 @@
           <label for="floatingPassword">密碼</label>
         </div>
         <!-- Button trigger modal -->
-        <a href="#" class="lh-base fs-6 text-gray-700 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">忘記密碼？</a>
-        <a href="./" class="w-100 btn btn-lg btn-primary text-white" type="submit">登入</a>
+        <a href="#" class="lh-base fs-6 text-gray-700 mb-4" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">忘記密碼？</a>
+        <a href="./" class="w-100 btn btn-lg btn-primary text-white" type="submit" id="login">登入</a>
       </form>
     </div>
 
@@ -103,7 +105,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header border-0">
         <h5 class="modal-title" id="exampleModalLabel">忘記密碼</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -115,13 +117,14 @@
           </div>
         </form>
       </div>
-      <div class="modal-footer d-flex justify-content-center">
+      <div class="modal-footer d-flex justify-content-center border-0">
         <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-        <button type="button" class="btn btn-primary text-white">傳送驗證碼</button>
+        <button type="button" class="btn btn-primary text-white" id="button1">傳送驗證碼</button>
       </div>
     </div>
   </div>
 </div>
+
     <footer class="footer d-flex justify-content-center fs-5">
   <div class="align-self-end scrollar" data-scrollar-speed="2">
     <div class="d-flex justify-content-center">
@@ -138,9 +141,11 @@
   </div>
 </footer>
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script src="./assets/js/aos.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/scrollar/scrollar.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/scrollar/scrollar.min.js"></script> -->
+    <!-- <script src="./assets/js/slick.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- <script src="./node_modules/swiper/swiper-bundle.min.js"></script> -->
 
     <script src="./assets/js/all.js"></script>

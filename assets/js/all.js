@@ -8,47 +8,94 @@ $(function () {
   //   })
   // });
   //
-  //   AOS.init({
-  //     duration: 600,
-  //     once: true
-  // });
   //
-  $('.banner-slide').slick({
-    dots: true,
-    arrows: false,
-    lazyLoad: 'ondemand'
-  }); //
+  window.addEventListener('load', function () {
+    $('.banner-slide').slick({
+      dots: true,
+      arrows: false,
+      lazyLoad: 'ondemand',
+      autoplay: true,
+      autoplaySpeed: 5000
+    });
+    $('.doctor-slide').slick({
+      dots: true,
+      arrows: false,
+      lazyLoad: 'ondemand'
+    }); //partner slider
 
-  $('.autoplay').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    //centerPadding: '0px',
-    autoplay: true,
-    autoplaySpeed: 2000,
-    responsive: [{
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        //centerPadding: '20px',
-        slidesToShow: 3
-      }
-    }, {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        //centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }]
-  }); //
+    $('.partner-slide').slick({
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      //centerPadding: '0px',
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          //centerPadding: '20px',
+          slidesToShow: 3
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          //centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }]
+    }); //
 
-  var swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
-    }
+    AOS.refresh();
+  });
+  $(window).on("scroll", function () {
+    AOS.init({});
+  }); //sweet alert
+
+  $('#button1').click(function () {
+    var timerInterval;
+    Swal.fire({
+      title: '驗證碼已寄出！',
+      //html: 'I will close in <b></b> milliseconds.',
+      timer: 2000,
+      timerProgressBar: true,
+      didOpen: function didOpen() {
+        Swal.showLoading();
+        var b = Swal.getHtmlContainer().querySelector('b');
+        timerInterval = setInterval(function () {
+          b.textContent = Swal.getTimerLeft();
+        }, 100);
+      },
+      willClose: function willClose() {
+        clearInterval(timerInterval);
+      }
+    }).then(function (result) {
+      /* Read more about handling dismissals below */
+      if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer');
+      }
+    });
+  }); //login
+
+  $('#login').click(function () {
+    var timerInterval;
+    Swal.fire({
+      icon: 'success',
+      html: '登入成功!',
+      timer: 4000,
+      timerProgressBar: true,
+      willClose: function willClose() {
+        clearInterval(timerInterval);
+      }
+    }).then(function (result) {
+      /* Read more about handling dismissals below */
+      if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer');
+      }
+    });
   }); //
 });
 "use strict";
