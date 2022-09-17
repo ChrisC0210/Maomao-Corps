@@ -1,0 +1,62 @@
+---
+title: Maomao Corps
+layout: ./app/layout.ejs
+engine: ejs
+current: login
+---
+<section class="container mb-6 mt-4 login-bg">
+  <div class="position-relative">
+    <div class="form-signin col-6 m-auto">
+      <form class="d-flex justify-content-center flex-column">
+        <h1 class="lh-base fs-2 fw-bolder text-primary text-center">會員登入</h1>
+        <div class="form-floating mb-4">
+          <input type="email" class="form-control" id="floatingInput" placeholder="123@gmail.com">
+          <label for="floatingInput">帳號</label>
+        </div>
+        <div class="form-floating mb-2">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="輸入6位數字">
+          <label for="floatingPassword">密碼</label>
+        </div>
+        <!-- Button trigger modal -->
+        <a href="#" class="lh-base fs-6 text-gray-700 mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">忘記密碼？</a>
+        <a href="./" class="w-100 btn btn-lg btn-primary text-white" type="submit">登入</a>
+      </form>
+    </div>
+
+    <!-- <div class="position-absolute top-100 start-50 translate-middle">
+      <img src="./assets/images/login-dog.svg" alt="login-dog">
+    </div> -->
+
+  </div>
+  <!-- animal -->
+  <div class="position-absolute top-0 start-50 translate-middle">
+    <img class="scrollar" data-scrollar-speed="2" src="./assets/images/login-cat.svg" alt="login-cat">
+  </div>
+  <!-- animal -->
+
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">忘記密碼</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="d-flex justify-content-center flex-column">
+          <div class="form-floating mb-4">
+            <input type="email" class="form-control" id="floatingInput" placeholder="123@gmail.com">
+            <label for="floatingInput">輸入信箱</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary text-white">傳送驗證碼</button>
+      </div>
+    </div>
+  </div>
+</div>

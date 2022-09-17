@@ -6,16 +6,24 @@ current: index
 ---
 <!--  -->
 <section class="container mt-4 mb-6">
-  <div class="p-4 rounded-5 bg-secondary banner-bg">
+  <div class="p-0 p-md-4 rounded-5 bg-secondary banner-bg">
     <div class="banner-slide mb-0">
       <div class="position-relative">
-        <div class="position-absolute top-0 start-0 bg-light mt-3 mx-3 p-4 border border-rounded-4 opacity-50">
-          <p  class="lh-base fs-5 fw-bolder">#寵物醫療</p>
-          <h2 class="lh-base fs-3 fw-bolder">毛孩新療法！「幹細胞治療」不再僅限於人類</h2>
+        <div class="position-absolute top-0 start-0 mt-3 mx-3 p-4 banner-slide-text">
+          <a href="#">
+            <p class="m-0 lh-base fs-5 fw-bolder text-gray-700">#寵物醫療</p>
+            <h2 class="lh-base fs-3 fw-bolder text-primary">毛孩新療法！「幹細胞治療」不再僅限於人類</h2>
+          </a>
         </div>
         <img class="img-fluid" src="./assets/images/banner-1.png" alt="banner-1.png">
       </div>
-      <div>
+      <div class="position-relative">
+        <div class="position-absolute top-0 start-0 mt-3 mx-3 p-4 banner-slide-text">
+          <a href="#">
+            <p class="m-0 lh-base fs-5 fw-bolder text-gray-700">#寵物醫療</p>
+            <h2 class="lh-base fs-3 fw-bolder text-primary">毛孩新療法！「幹細胞治療」不再僅限於人類</h2>
+          </a>
+        </div>
         <img class="img-fluid" src="./assets/images/banner-1.png" alt="banner-1.png">
       </div>
     </div>
@@ -29,13 +37,13 @@ current: index
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
   </h2>
 </div>
-<section class="container mb-6">
+<section class="container mb-6 card-border">
   <div class="p-5 rounded-pill bg-yellow-200 shadow">
-    <div class="d-flex justify-content-center">
-      <p class="lh-base fs-4 fw-bolder text-gray-700">
-        我們是一群有毛小孩的飼主，希望能夠透過我們的平台、合作的獸醫師，<br> 傳遞正確的寵物飼養知識。
+    <div class="d-flex justify-content-center align-items-center">
+      <p class="lh-base fs-4 fw-bolder text-gray-700 m-5">
+        我們是一群有毛小孩的飼主，希望能夠透過我們的平台、合作的獸醫師，傳遞正確的寵物飼養知識。
       </p>
-      <img src="./assets/images/icon-foots.svg" alt="icon-foots.svg">
+      <img class="d-none d-lg-block" src="./assets/images/icon-foots.svg" alt="icon-foots.svg">
     </div>
   </div>
 </section>
@@ -47,14 +55,14 @@ current: index
     <span><img class="mx-2 mb-1" src="./assets/images/icon-bone.svg" alt="title-icon"></span>
   </h2>
 </div>
-<section class="container">
-  <div class="p-5 rounded-pill bg-yellow-200 shadow row position-relative">
+<section class="container card-border">
+  <div class="p-5 rounded-pill bg-yellow-200 shadow m-2 m-lg-0 row position-relative">
     <div class="col-6">
-      <div class="position-absolute top-50 start-0 translate-middle-y">
+      <div class="d-none d-lg-block position-absolute top-50 start-0 translate-middle-y">
         <img src="./assets/images/doctor-1.png" alt="doctor-1.png">
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-sm-12 col-lg-6 text-sm-center text-lg-start">
       <h3 class="lh-base fs-2 fw-bolder text-primary">
         <span><img class="me-2 mb-1" src="./assets/images/icon-doctor.svg" alt="doctor-icon"></span>
         王大明</h3>
@@ -78,7 +86,7 @@ current: index
     <div class="col position-relative">
       <a href="#">
         <!-- <div class="position-absolute top-0 end-0 text-white bg-light p-4 pt-2">Ad</div> -->
-        <img class="w-100" src="./assets/images/img-ads.png" alt="ads">        
+        <img class="w-100" src="./assets/images/img-ads.png" alt="ads">
       </a>
     </div>
 
@@ -96,23 +104,27 @@ current: index
   <div class="accordion" id="accordionExample">
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingOne">
-        <button class="accordion-button fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="accordion-button fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           會員制度
         </button>
       </h5>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          免費加入會員，未來將會解鎖更多會員限定的功能、收藏文章，訂閱電子報可以獲得最新消息唷！
         </div>
       </div>
     </div>
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           合作接洽
         </button>
       </h5>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <p>我是店家/獸醫院/中途之家，想要合作，如何接洽呢？</p>
           <br>
@@ -123,13 +135,15 @@ current: index
     </div>
     <div class="accordion-item">
       <h5 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="accordion-button collapsed fw-bolder lh-base fs-5" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           付款方式
         </button>
       </h5>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          目前付款方式依合作商家為主，尚未有任何金流服務。
         </div>
       </div>
     </div>
@@ -150,35 +164,35 @@ current: index
   <div class="autoplay m-0">
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
-        <a href="#" class="d-flex justify-content-center">
+        <a href="https://www.petpetmomart.com/products" target="_blank" class="d-flex justify-content-center">
           <img src="./assets/images/partner-1.png" alt="partner-1.png">
         </a>
       </div>
     </div>
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
-        <a href="#" class="d-flex justify-content-center">
+        <a href="https://heromamapet.com/" target="_blank" class="d-flex justify-content-center">
           <img src="./assets/images/partner-2.png" alt="partner-2.png">
         </a>
       </div>
     </div>
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
-        <a href="#" class="d-flex justify-content-center">
+        <a href="https://www.petstimes.com.tw/" target="_blank" class="d-flex justify-content-center">
           <img src="./assets/images/partner-3.png" alt="partner-3.png">
         </a>
       </div>
     </div>
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
-        <a href="#" class="d-flex justify-content-center">
+        <a href="https://www.dogcatstar.com/" target="_blank" class="d-flex justify-content-center">
           <img src="./assets/images/partner-4.png" alt="partner-4.png">
         </a>
       </div>
     </div>
     <div>
       <div class="partner-card d-flex justify-content-center align-items-center">
-        <a href="#" class="d-flex justify-content-center">
+        <a href="https://www.protexin.com/" target="_blank" class="d-flex justify-content-center">
           <img src="./assets/images/partner-5.png" alt="partner-5.png">
         </a>
       </div>
