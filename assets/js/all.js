@@ -78,6 +78,30 @@ $(function () {
         console.log('I was closed by the timer');
       }
     });
+  });
+  $('#button2').click(function () {
+    var timerInterval;
+    Swal.fire({
+      title: '恭喜，完成訂閱！',
+      //html: 'I will close in <b></b> milliseconds.',
+      timer: 2000,
+      timerProgressBar: true,
+      didOpen: function didOpen() {
+        Swal.showLoading();
+        var b = Swal.getHtmlContainer().querySelector('b');
+        timerInterval = setInterval(function () {
+          b.textContent = Swal.getTimerLeft();
+        }, 100);
+      },
+      willClose: function willClose() {
+        clearInterval(timerInterval);
+      }
+    }).then(function (result) {
+      /* Read more about handling dismissals below */
+      if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer');
+      }
+    });
   }); //login
 
   $('#login').click(function () {
